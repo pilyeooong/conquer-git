@@ -14,5 +14,4 @@ if __name__ == '__main__':
     assert fizzbuzz(7) == '7', '7 is not divisible by 3 or 5'
 
 def buzzfizz(number):
-    print('masterzconfilict')
-
+    print('buzz master')
