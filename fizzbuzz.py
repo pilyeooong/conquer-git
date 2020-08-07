@@ -12,3 +12,6 @@ if __name__ == '__main__':
     assert fizzbuzz(6) == 'Fizz', '6 is divisible by 3'
     assert fizzbuzz(5) == 'Buzz', '5 is divisible by 5'
     assert fizzbuzz(7) == '7', '7 is not divisible by 3 or 5'
+
+def buzzfizz(number):
+    print('buzz fizz')
