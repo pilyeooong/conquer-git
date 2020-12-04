@@ -10,7 +10,6 @@ def extract_indeed_pages():
 
     result = requests.get(URL)
     soup = BeautifulSoup(result.text, 'html.parser')
-
     pagination = soup.find('div', {'class': 'pagination'})
 
     links = pagination.find_all('a')
