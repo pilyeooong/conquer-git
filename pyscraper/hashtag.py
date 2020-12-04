@@ -20,6 +20,7 @@ options.add_argument('lang=ko_KR')
 
 driver = webdriver.Chrome('chromedriver', options=options)
 
+
 # driver.implicitly_wait(10)
 
 driver.get(url)
