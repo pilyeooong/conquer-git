@@ -1,0 +1,17 @@
+.box {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    background-image: url('https://d4p17acsd5wyj.cloudfront.net/shortcuts/cuisines/chinese.png');
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    background-size: cover; /* background image의 크기를 div와 똑같이 만듬*/
+}
+
+.box:nth-child(2) {
+    margin-top: 1rem;
+    width: 540px;
+    height: 540px;
+}
